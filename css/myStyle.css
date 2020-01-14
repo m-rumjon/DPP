@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+/*Class starts with a Dot*/
+.container{
+    width:80%;
+    margin:auto;
+}
+body{
+    margin:0;
+    background-color: #bbe1fa;
+    font-family: 'Roboto', sans-serif;
+    font-size:16px;
+    
+}
+        
+        h1{
+           color:#0f4c75;
+           border-bottom: 2px solid bisque;
+           border-right: 2px solid bisque;
+        
+       }
+
+       
+/*      # tags are used for id's rather than tag elements such as h1 comment */
+        #menu{
+           list-style-type: none;
+           text-align: right;
+           margin: 0px;
+           padding: 20px;
+           overflow: hidden;
+           background-color: bisque;
+       }
+       #menu li{
+           display:inline;
+           padding:20px;
+       }
+       
+       #menu a {
+           text-decoration: none;
+       }
+       
+       a li:hover{
+           color:black;
+           background-color: aqua;
+       }
+       
+       a li:active{
+           background-color:yellow;
+       }
+footer{
+    background-color: #52de97;
+    padding:5px;
+}
+
+.divcenter{
+    text-align:center;
+    
+}
+
+.myForm{
+    padding: 20px;
+    background-color: bisque;
+    font-weight:bold;
+   
+    
+}
+.myForm label{
+    display: block;
+    
+}
+
+.myForm input[type="text"], .myForm input[type="tel"],
+.myForm input[type="number"], .myForm input[type="email"],.myForm textarea
+
+{
+    padding: 5px;
+    width: 90%;
+   
+}
+
+.btn1{
+    background-color:cornflowerblue;
+    color:white;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    
+}
+
+#formDiv{
+    width:75%;
+    float:left;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#addressDiv{
+    
+    width:25%;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.clear{
+    clear: both;
+}
